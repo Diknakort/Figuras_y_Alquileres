@@ -8,10 +8,6 @@ namespace ConsoleApp1
 {
     public class Factoria : IFactoriaMedibles
     {
-
-
-
-
         public IMedible DameFigura(TipoFigura tipoFigura, int valor)
         {
             switch (tipoFigura)
